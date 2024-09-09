@@ -1,0 +1,18 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    max-height: 2000px;
+}
+
+.firstPage {
+    color: white;
+    background: linear-gradient(to right, #ff826c, #ff6c65);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+li{
+    list-style: none;
+}
