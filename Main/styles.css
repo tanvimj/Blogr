@@ -85,7 +85,7 @@ li{
 }
 
 ul.navbar li {
-    position: relative; /* Important for positioning the dropdown */
+    position: relative; 
     color: white;
     transition: color 0.3s ease;
     cursor: pointer;
@@ -189,13 +189,13 @@ ul.dropdown li:hover {
 }
 
 .btns li:active {
-    transform: scale(0.95); /* Slightly reduce size to simulate pressing the button */
+    transform: scale(0.95);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .btns2 li:active {
-    transform: translateY(2px); /* Slight downward movement when clicked */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Lower shadow for a pressed effect */
+    transform: translateY(2px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .logo{
