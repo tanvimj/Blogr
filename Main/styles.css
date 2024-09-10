@@ -400,12 +400,54 @@ ul.dropdown li:hover {
     color: white;
 }
 
+.foot1 ul {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    font-size: 0.8em;
+    line-height: 1.9;
+}
+
+.foot2 ul {
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    font-size: 0.8em;
+    line-height: 1.9;
+}
+
+.foot3 ul {
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    font-size: 0.8em;
+    line-height: 1.9;
+}
+
+footer ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 450;
+}
+
+.foot1head, .foot2head, .foot3head {
+    font-weight: 550;
+}
+
+.logoAgain {
+    position: absolute;
+    color: white;
+    font-weight: 500;
+    top: 25%;
+    left: 10%;
+    font-size: 1.6em;
+}
 
 /* newsletter begins here */
 
 .newsletterimg {
     position: absolute;
-    height: 400px;
+    height: 450px;
     bottom: -353%;
     right: 10%;
 }
@@ -414,7 +456,88 @@ ul.dropdown li:hover {
     position: absolute;
     bottom: -310%;
     color: #2d2e40;
-    right: 50%;
+    left: 6%;
     font-size: 1.4em;
     font-weight: 450;
 }
+
+.text13 {
+    color: #2d2e40;
+    font-size: 0.9em;
+    position: absolute;
+    bottom: -355%;
+    left: 6%;
+    width: 500px;
+    height: 250px;
+    line-height: 1.8;
+}
+
+button {
+    --primary-color: #ff4457;
+    --secondary-color: #fff;
+    --hover-color: #2d2e40;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 20px;
+    color: var(--secondary-color);
+    padding: 1em 1.8em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.45s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: bold;
+    position: absolute;
+    bottom: -340%;
+    left: 5.5%;
+    width: 130px;
+  }
+  
+  button .arrow-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button .arrow {
+    margin-top: 1px;
+    width: var(--arrow-width);
+    background: var(--primary-color);
+    height: var(--arrow-stroke);
+    position: relative;
+    transition: 0.2s;
+  }
+  
+  button .arrow::before {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    border: solid var(--secondary-color);
+    border-width: 0 var(--arrow-stroke) var(--arrow-stroke) 0;
+    display: inline-block;
+    top: -3px;
+    right: 3px;
+    transition: 0.2s;
+    padding: 3px;
+    transform: rotate(-45deg);
+  }
+  
+  button:hover {
+    background-color: var(--hover-color);
+  }
+  
+  button:hover .arrow {
+    background: var(--secondary-color);
+  }
+  
+  button:hover .arrow:before {
+    right: 0;
+  }
+
+  button:active {
+    transform: scale(0.95); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
