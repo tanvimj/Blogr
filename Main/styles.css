@@ -555,3 +555,12 @@ body {
     max-width: 100%;
     box-sizing: border-box; 
 }
+
+a {
+    color: inherit; /* Inherits the color from the parent element */
+    text-decoration: none; /* Removes the underline from the link */
+}
+
+.btns2 a {
+    display: block;
+}
