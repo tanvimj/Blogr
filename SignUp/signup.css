@@ -1,0 +1,96 @@
+body {
+    overflow-y: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.side {
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    width: 600px;
+    background: linear-gradient(to right, #ff826c, #ff4457);
+    height: 100%;
+    border-top-left-radius: 150px 100px;
+    border-bottom-left-radius: 150px 100px;
+}
+
+.sideimg {
+    position: absolute;
+    height: 450px;
+    right: 12%;
+    top: 16%;
+}
+
+.signup-form {
+    position: absolute;
+    left: 7.5%;
+    top: 5%;
+    width: 35%;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #333;
+}
+
+.signup-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background: none;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.signup-form input[type="text"]:focus,
+.signup-form input[type="email"]:focus,
+.signup-form input[type="password"]:focus {
+    border-bottom: 2px solid #ff4457;
+}
+
+.signup-form input[type="text"]::placeholder,
+.signup-form input[type="email"]::placeholder,
+.signup-form input[type="password"]::placeholder {
+    color: #aaa;
+}
+
+.signup-form button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(to right, #ff826c, #ff4457);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+    background: linear-gradient(to right, #ff4457, #ff826c);
+}
+
+.signup-form button:active {
+    transform: scale(0.95);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
