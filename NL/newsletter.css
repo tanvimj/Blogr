@@ -1,0 +1,206 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sideimg {
+    position: absolute;
+    height: 570px;
+    width: 420px;
+    padding: 5px;
+    right: 10px;
+}
+
+.stay {
+    position: absolute;
+    top: 12%;
+    left: 10%;
+    font-size: 2.5em;
+    color: #2d2e40;
+    font-weight: 600;
+}
+
+.text1 {
+    position: absolute;
+    top: 29%;
+    left: 10.2%;
+    font-size: 0.9em;
+    width: 400px;
+    font-weight: 430;
+}
+
+.tick1 {
+    position: absolute;
+    top: 44%;
+    height: 20px;
+    left: 10%;
+}
+
+.txt1 {
+    position: absolute;
+    top: 41%;
+    left: 12.5%;
+    font-weight: 450;
+}
+
+.tick2 {
+    position: absolute;
+    top: 51%;
+    height: 20px;
+    left: 10%;
+}
+
+.txt2 {
+    position: absolute;
+    top: 48%;
+    left: 12.5%;
+    font-weight: 450;
+}
+
+.tick3 {
+    position: absolute;
+    top: 58%;
+    height: 20px;
+    left: 10%;
+}
+
+.txt3 {
+    position: absolute;
+    top: 55%;
+    left: 12.5%;
+    font-weight: 450;
+}
+
+.txt4 {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+.emailInput {
+    width: 400px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 0.9em;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 72%;
+    left: 9.7%;
+}
+
+.emailInput:focus {
+    outline: none;
+    border-color: #2d2e40;
+}
+
+.submitbtn {
+    position: absolute;
+    top: 83.5%;
+    left: 9.5%;
+    width: 435px;
+    height: 50px;
+    background-color: #2d2e40;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9em;
+    border-radius: 10px;
+    font-weight: 450;
+    transition: all 0.45s ease;
+}
+
+.submitbtn:hover {
+    background-color: #393a51;
+}
+
+.submitbtn:active {
+    transform: scale(0.95); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container, .success-container {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 20px;
+    width: 400px;
+}
+
+.success-container img {
+    position: absolute;
+    top: 8%;
+    left: 9%;
+    height: 50px;
+}
+
+.success-container button {
+    background: linear-gradient(to right, #ff826c, #ff4457);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 69%;
+    left: 12.5%;
+    width: 400px;
+    height: 45px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 2s ease;
+}
+
+.success-container button:hover {
+    background: linear-gradient(to right, #ff4457, #ff826c);
+    transition: 3s ease;
+}
+
+.success-container button:active {
+    transform: scale(0.25); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.success-container {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    width: 500px;
+}
+
+.success-container h1 {
+    position: absolute;
+    top: 19%;
+    left: 8%;
+    font-size: 2.5em;
+    width: 250px;
+    font-weight: 600;
+    color: #2d2e40;
+    line-height: 1.2;
+}
+
+.success-container p {
+    position: absolute;
+    top: 46%;
+    left: 8%;
+    font-size: 1em;
+    width: 400px;
+    font-weight: 400;
+    color: #2d2e40;
+}
+
+.success-bg {
+    background-color: #2d2e40;
+}
+
+.bold-email {
+    font-weight: 600;
+}
